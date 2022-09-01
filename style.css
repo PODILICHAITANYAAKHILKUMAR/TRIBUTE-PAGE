@@ -1,0 +1,71 @@
+*{
+    box-sizing : border-box;
+    padding: 0;
+    margin : 0;   
+    text-align:center;
+}
+body{
+    display:grid;
+    place-items:center;
+}
+.container img{
+    width:750px;
+    height:500px;
+    transition:all .5s ease;
+}
+.container img:hover{
+    transform:scale(1.05);
+}
+.firstrow{
+    background-color: rgba(0,0,0,0.9);
+    box-shadow: 5px 10px 3px rgba(0,0,0,0.5);
+    color :aliceblue;
+    text-shadow: 1px 0px 3px #fff;
+    font-family:'Courier New', Courier, monospace;
+    width:100%;
+}
+h1,h2{
+   text-align: center;
+   padding: 10px; 
+   transition : all 0.6s
+}
+h4{
+    text-align : center;
+    font-family:'Courier New', Courier, monospace;
+    margin-left:120px;
+    padding : 10px;
+    font-size: x-large;
+    margin-bottom: 50px;
+    border-radius: 9px;
+    width : 80%;
+    background-color: black;
+    color: #fff;
+    text-transform:uppercase;
+}
+.first_card , .second_card{
+    padding : 20px;
+    transition: all 0.5s;
+}
+
+.third_card ,.fourth_card{
+    padding : 20px;
+    transition: all 0.5s;
+}
+li,dt,dd,.para{
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+}
+.fc4{
+    text-align : center;
+    font-family:'Courier New', Courier, monospace;
+    margin-left : auto;
+    margin-right : auto;
+    padding : 10px;
+    border-radius: 9px;
+    font-size: x-large;
+    margin-bottom: 50px;
+    width : 80%;
+    background-color: black;
+    color: #fff;
+}
